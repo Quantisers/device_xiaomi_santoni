@@ -18,8 +18,8 @@
 
 set -e
 
-DEVICE=santoni
-VENDOR=xiaomi
-DEVICE_COMMON=msm8937-common
+export DEVICE=santoni
+export VENDOR=xiaomi
+export DEVICE_COMMON=msm8937-common
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
